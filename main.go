@@ -15,8 +15,8 @@ func main() {
 
         salesTotal := s.GetTotal()
         expensesTotal := e.GetTotal()
-        salesFirstTwoDays := s.GetTotalWithinRange(0, 2)
-        expensesFirstTwoDays := e.GetTotalWithinRange(0, 2)
+        salesFirstTwoDays := s.GetTotalWithinRange(0,1)
+        expensesFirstTwoDays := e.GetTotalWithinRange(0,1)
 
         fmt.Println("=======##=======")
         fmt.Printf("Sales in the first 2 days is: %v\n", salesFirstTwoDays)
